@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Declaration of Conformity - Mini Steamer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a56db 0%, #3b82f6 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px 12px 0 0;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a56db;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: 10px 20px;
+        }
+        
+        .info-label {
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .info-value {
+            color: #333;
+        }
+        
+        .compliance-list {
+            list-style: none;
+        }
+        
+        .compliance-list li {
+            padding: 6px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .compliance-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+        
+        .compliance-subtitle {
+            font-weight: 600;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #444;
+        }
+        
+        .compliance-subtitle:first-child {
+            margin-top: 0;
+        }
+        
+        .product-image {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .product-image img {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .declaration-text {
+            font-style: italic;
+            color: #555;
+            padding: 15px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border-left: 4px solid #1a56db;
+        }
+        
+        .signature {
+            margin-top: 20px;
+            text-align: right;
+        }
+        
+        .signature p {
+            margin: 4px 0;
+            color: #666;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 20px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
+            
+            .info-label {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>EU Declaration of Conformity</h1>
+            <p>Product Compliance Declaration</p>
+        </div>
+        
+        <div class="content">
+            <!-- Product Information -->
+            <div class="section">
+                <h2 class="section-title">Product Information</h2>
+                <div class="info-grid">
+                    <div class="info-label">Product Name:</div>
+                    <div class="info-value">Mini Steamer</div>
+                    
+                    <div class="info-label">EAN Code:</div>
+                    <div class="info-value">6902872705219</div>
+                    
+                    <div class="info-label">Brand:</div>
+                    <div class="info-value">-</div>
+                    
+                    <div class="info-label">Material:</div>
+                    <div class="info-value">Plastic, Stainless Steel</div>
+                    
+                    <div class="info-label">Category:</div>
+                    <div class="info-value">Daily Life Products</div>
+                    
+                    <div class="info-label">Use:</div>
+                    <div class="info-value">Household Products</div>
+                </div>
+                
+                <div class="product-image">
+                    <img src="https://i-bosity-com.oss-cn-hongkong.aliyuncs.com/product_img/287/70057999/70057999_4_image.jpg" alt="Mini Steamer">
+                </div>
+            </div>
+            
+            <!-- Product Compliance -->
+            <div class="section">
+                <h2 class="section-title">Product Compliance</h2>
+                
+                <div class="compliance-subtitle">Directives / Regulations:</div>
+                <ul class="compliance-list">
+                    <li>Regulation (EU) 2023/988 (General Product Safety Regulation)</li>
+                    <li>Regulation (EC) No 1272/2008 (CLP Regulation)</li>
+                    <li>Regulation (EC) No 1907/2006 (REACH)</li>
+                </ul>
+                
+                <div class="compliance-subtitle">Additional Compliance References:</div>
+                <ul class="compliance-list">
+                    <li>ECHA Candidate List of Substances of Very High Concern (SVHC)</li>
+                    <li>REACH Annex XVII – Restricted Substances</li>
+                </ul>
+            </div>
+            
+            <!-- Manufacturer Information -->
+            <div class="section">
+                <h2 class="section-title">Manufacturer Information</h2>
+                <div class="info-grid">
+                    <div class="info-label">Company:</div>
+                    <div class="info-value">Shenzhen Pusheng Kaijie Trading Co., Ltd.</div>
+                    
+                    <div class="info-label">Address:</div>
+                    <div class="info-value">Room A-1802-6, Sunshine Science Center, Nanxin Road, Nanshan District, Shenzhen</div>
+                    
+                    <div class="info-label">Email:</div>
+                    <div class="info-value">mujtqxh@ecomrisks.com</div>
+                </div>
+            </div>
+            
+            <!-- European Authorized Representative -->
+            <div class="section">
+                <h2 class="section-title">European Authorized Representative</h2>
+                <div class="info-grid">
+                    <div class="info-label">Company:</div>
+                    <div class="info-value">eVatmaster Consulting GmbH</div>
+                    
+                    <div class="info-label">Address:</div>
+                    <div class="info-value">Raiffeisen Street 2 B11, 63110 Rodgau, Hessen, Germany</div>
+                    
+                    <div class="info-label">Email:</div>
+                    <div class="info-value">contact@evatmaster.com</div>
+                </div>
+            </div>
+            
+            <!-- Declaration Statement -->
+            <div class="section">
+                <h2 class="section-title">Declaration Statement</h2>
+                <div class="declaration-text">
+                    The undersigned hereby declares that the above specified product complies with all relevant EU directives and regulations, and meets all applicable safety and health requirements for placing the product on the European market.
+                </div>
+                
+                <div class="signature">
+                    <p><strong>Signature:</strong> _____________________</p>
+                    <p><strong>Date:</strong> 2026-08-07</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>This is an electronic declaration of conformity. Scan the QR code on the product label to view this page.</p>
+        </div>
+    </div>
+</body>
+</html>
